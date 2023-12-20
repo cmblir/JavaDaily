@@ -29,34 +29,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/alces/Desktop/JavaBackend/JavaDaily/강다현/java-start/src",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/alces/Desktop/practiceSpring/hello-sprinig/hello-sprinig/build.gradle&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\alces\Desktop\JavaBackend\JavaDaily\강다현\java-start\src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cond.ex" />
+      <recent name="cond" />
       <recent name="operator.ex" />
       <recent name="operator" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.OperationEx3">
-    <configuration name="Logical1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="operator.Logical1" />
+  <component name="RunManager" selected="Application.EvenOddEx">
+    <configuration name="CondOpEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cond.ex.CondOpEx" />
       <module name="java-start" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="operator.*" />
+          <option name="PATTERN" value="cond.ex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -64,12 +66,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Logical2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="operator.Logical2" />
+    <configuration name="EvenOddEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cond.ex.EvenOddEx" />
       <module name="java-start" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="operator.*" />
+          <option name="PATTERN" value="cond.ex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,12 +79,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OperationEx1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="variable.ex.OperationEx1" />
+    <configuration name="ExchangeRateEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cond.ex.ExchangeRateEx" />
       <module name="java-start" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="variable.ex.*" />
+          <option name="PATTERN" value="cond.ex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OperationEx2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="operator.ex.OperationEx2" />
+    <configuration name="MoveRateEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cond.ex.MoveRateEx" />
       <module name="java-start" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="operator.ex.*" />
+          <option name="PATTERN" value="cond.ex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OperationEx3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="operator.ex.OperationEx3" />
+    <configuration name="Switch3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cond.Switch3" />
       <module name="java-start" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="operator.ex.*" />
+          <option name="PATTERN" value="cond.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.OperationEx3" />
-        <item itemvalue="Application.OperationEx2" />
-        <item itemvalue="Application.OperationEx1" />
-        <item itemvalue="Application.Logical2" />
-        <item itemvalue="Application.Logical1" />
+        <item itemvalue="Application.EvenOddEx" />
+        <item itemvalue="Application.CondOpEx" />
+        <item itemvalue="Application.MoveRateEx" />
+        <item itemvalue="Application.ExchangeRateEx" />
+        <item itemvalue="Application.Switch3" />
       </list>
     </recent_temporary>
   </component>
@@ -135,6 +137,8 @@
       <option name="presentableId" value="Default" />
       <updated>1702896447623</updated>
       <workItem from="1702896448902" duration="3890000" />
+      <workItem from="1702909033087" duration="141000" />
+      <workItem from="1703066818910" duration="4889000" />
     </task>
     <servers />
   </component>
