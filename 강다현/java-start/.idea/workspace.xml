@@ -46,19 +46,20 @@
       <recent name="C:\Users\alces\Desktop\JavaBackend\JavaDaily\강다현\java-start\src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="loop.ex" />
+      <recent name="loop" />
       <recent name="cond.ex" />
       <recent name="cond" />
       <recent name="operator.ex" />
-      <recent name="operator" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EvenOddEx">
-    <configuration name="CondOpEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cond.ex.CondOpEx" />
+  <component name="RunManager" selected="Application.NestedEx2">
+    <configuration name="ForEx2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="loop.ex.ForEx2" />
       <module name="java-start" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cond.ex.*" />
+          <option name="PATTERN" value="loop.ex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -66,12 +67,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EvenOddEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cond.ex.EvenOddEx" />
+    <configuration name="ForEx3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="loop.ex.ForEx3" />
       <module name="java-start" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cond.ex.*" />
+          <option name="PATTERN" value="loop.ex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,12 +80,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExchangeRateEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cond.ex.ExchangeRateEx" />
+    <configuration name="NestedEx1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="loop.ex.NestedEx1" />
       <module name="java-start" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cond.ex.*" />
+          <option name="PATTERN" value="loop.ex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MoveRateEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cond.ex.MoveRateEx" />
+    <configuration name="NestedEx2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="loop.ex.NestedEx2" />
       <module name="java-start" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cond.ex.*" />
+          <option name="PATTERN" value="loop.ex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Switch3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cond.Switch3" />
+    <configuration name="WhileEx3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="loop.ex.WhileEx3" />
       <module name="java-start" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cond.*" />
+          <option name="PATTERN" value="loop.ex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.EvenOddEx" />
-        <item itemvalue="Application.CondOpEx" />
-        <item itemvalue="Application.MoveRateEx" />
-        <item itemvalue="Application.ExchangeRateEx" />
-        <item itemvalue="Application.Switch3" />
+        <item itemvalue="Application.NestedEx2" />
+        <item itemvalue="Application.NestedEx1" />
+        <item itemvalue="Application.ForEx3" />
+        <item itemvalue="Application.WhileEx3" />
+        <item itemvalue="Application.ForEx2" />
       </list>
     </recent_temporary>
   </component>
@@ -139,6 +140,8 @@
       <workItem from="1702896448902" duration="3890000" />
       <workItem from="1702909033087" duration="141000" />
       <workItem from="1703066818910" duration="4889000" />
+      <workItem from="1703072369106" duration="645000" />
+      <workItem from="1703134799965" duration="6603000" />
     </task>
     <servers />
   </component>
