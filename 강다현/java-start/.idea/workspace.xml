@@ -46,20 +46,20 @@
       <recent name="C:\Users\alces\Desktop\JavaBackend\JavaDaily\강다현\java-start\src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="method" />
+      <recent name="array.ex" />
+      <recent name="array" />
       <recent name="scanner.ex" />
       <recent name="scanner" />
-      <recent name="Casting1" />
-      <recent name="scope" />
-      <recent name="loop.ex" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NestedEx2">
-    <configuration name="ForEx2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="loop.ex.ForEx2" />
+  <component name="RunManager" selected="Application.MethodCasting2">
+    <configuration name="MethodCasting1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="method.MethodCasting1" />
       <module name="java-start" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="loop.ex.*" />
+          <option name="PATTERN" value="method.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -67,12 +67,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ForEx3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="loop.ex.ForEx3" />
+    <configuration name="MethodCasting2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="method.MethodCasting2" />
       <module name="java-start" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="loop.ex.*" />
+          <option name="PATTERN" value="method.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,12 +80,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NestedEx1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="loop.ex.NestedEx1" />
+    <configuration name="MethodReturn1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="method.MethodReturn1" />
       <module name="java-start" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="loop.ex.*" />
+          <option name="PATTERN" value="method.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NestedEx2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="loop.ex.NestedEx2" />
+    <configuration name="MethodReturn2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="method.MethodReturn2" />
       <module name="java-start" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="loop.ex.*" />
+          <option name="PATTERN" value="method.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WhileEx3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="loop.ex.WhileEx3" />
+    <configuration name="MethodValue2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="method.MethodValue2" />
       <module name="java-start" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="loop.ex.*" />
+          <option name="PATTERN" value="method.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.NestedEx2" />
-        <item itemvalue="Application.NestedEx1" />
-        <item itemvalue="Application.ForEx3" />
-        <item itemvalue="Application.WhileEx3" />
-        <item itemvalue="Application.ForEx2" />
+        <item itemvalue="Application.MethodCasting2" />
+        <item itemvalue="Application.MethodCasting1" />
+        <item itemvalue="Application.MethodValue2" />
+        <item itemvalue="Application.MethodReturn2" />
+        <item itemvalue="Application.MethodReturn1" />
       </list>
     </recent_temporary>
   </component>
@@ -143,7 +143,8 @@
       <workItem from="1703072369106" duration="645000" />
       <workItem from="1703134799965" duration="6603000" />
       <workItem from="1703141786058" duration="129000" />
-      <workItem from="1703212238182" duration="921000" />
+      <workItem from="1703212238182" duration="1003000" />
+      <workItem from="1703562375409" duration="22255000" />
     </task>
     <servers />
   </component>

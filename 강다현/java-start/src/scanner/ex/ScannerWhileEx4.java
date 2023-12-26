@@ -2,7 +2,7 @@ package scanner.ex;
 
 import java.util.Scanner;
 
-ppublic class ScannerWhileEx4 {
+public class ScannerWhileEx4 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int totalCost = 0;
