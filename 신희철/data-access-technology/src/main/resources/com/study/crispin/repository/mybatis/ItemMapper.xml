@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTO Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.study.repository.mybatis.ItemMapper">
+<mapper namespace="com.study.crispin.repository.mybatis.ItemMapper">
 
     <insert id="save" useGeneratedKeys="true" keyProperty="id">
         insert into item (ITEM_NAME, PRICE, QUANTITY)
@@ -17,13 +17,13 @@
 
     </update>
 
-    <select id="findById" resultType="Item">
+    <select id="findById" resultType="com.study.crispin.domain.Item">
         select id, item_name, price, quantity
         from item
         where id = #{id}
     </select>
 
-    <select id="findAll" resultType="Item">
+    <select id="findAll" resultType="com.study.crispin.domain.Item">
         select id, item_name, price, quantity
         from item
         <where>
@@ -31,7 +31,7 @@
                 and item_name like concat('%', #{itemName}, '%')
             </if>
             <if test="maxPrice != null">
-                and price $lt ;= #{maxPrice}
+                and price &lt;= #{maxPrice}
             </if>
         </where>
     </select>
