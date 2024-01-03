@@ -1,12 +1,20 @@
 package com.study.crispin.domain;
 
-import lombok.Data;
+import com.study.crispin.repository.ItemUpdateDto;
+import jakarta.persistence.*;
+import lombok.Getter;
+import lombok.Setter;
 
-@Data
+@Getter
+@Setter
+@Entity
 public class Item {
 
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+    @Column(name = "item_name", length = 10)
     private String itemName;
     private Integer price;
     private Integer quantity;
@@ -19,4 +27,12 @@ public class Item {
         this.price = price;
         this.quantity = quantity;
     }
+
+    public Item update(ItemUpdateDto updateParam) {
+        this.itemName = updateParam.getItemName();
+        this.price = updateParam.getPrice();
+        this.quantity = updateParam.getQuantity();
+        return this;
+    }
 }
+

@@ -1,6 +1,6 @@
 package com.study.crispin;
 
-import com.study.crispin.config.MybatisConfig;
+import com.study.crispin.config.JPAConfig;
 import com.study.crispin.repository.ItemRepository;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.SpringApplication;
@@ -16,7 +16,8 @@ import javax.sql.DataSource;
 @Slf4j
 //@Import(MemoryConfig.class)
 //@Import(JdbcTemplateV1Config.class)
-@Import(MybatisConfig.class)
+//@Import(MybatisConfig.class)
+@Import(JPAConfig.class)
 @SpringBootApplication(scanBasePackages = "com.study.crispin.web")
 public class DataAccessTechnologyApplication {
 
