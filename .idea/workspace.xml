@@ -10,8 +10,31 @@
       <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/최기범/Java-start/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/최기범/Java-start/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/최기범/Java-start/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/최기범/Java-start/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/최기범/Java-start/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/최기범/Java-start/Java-start.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/최기범/Java-start/src/array/Array1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/최기범/Java-start/src/array/Array1Ref1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/최기범/Java-start/src/array/Array1Ref2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/최기범/Java-start/src/array/Array1Ref3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/최기범/Java-start/src/array/Array1Ref4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/최기범/Java-start/src/array/ArrayDi1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/최기범/Java-start/src/array/ArrayDi2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/최기범/Java-start/src/array/ArrayDi3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/최기범/Java-start/src/array/EnhancedFor1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/최기범/Java-start/src/array/ex/ArrayEx1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/최기범/Java-start/src/array/ex/ArrayEx2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/최기범/Java-start/src/array/ex/ArrayEx3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/최기범/Java-start/src/array/ex/ArrayEx4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/최기범/Java-start/src/array/ex/ArrayEx5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/최기범/Java-start/src/array/ex/ArrayEx6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/최기범/Java-start/src/array/ex/ArrayEx7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/최기범/Java-start/src/array/ex/ArrayEx8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/최기범/Java-start/src/array/ex/ArrayEx9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/최기범/Java-start/src/test/Operator1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JavaDaily.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDaily.iml" afterDir="false" />
     </list>
@@ -28,7 +51,13 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="KIPUMP" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/최기범/Java-start" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -54,7 +83,7 @@
     "git-widget-placeholder": "main",
     "jdk.selected.JAVA_MODULE": "17",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/JavaDaily",
+    "last_opened_file_path": "C:/JavaDaily/최기범/Java-start/src",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -63,6 +92,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\JavaDaily\최기범\Java-start\src" />
       <recent name="C:\JavaDaily\최기범" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -71,6 +101,9 @@
       <recent name="C:\JavaDaily" />
       <recent name="C:\JavaDaily\최기범\Java-start" />
       <recent name="C:\JavaDaily\최기범\java-start" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="array" />
     </key>
   </component>
   <component name="RunManager">
@@ -117,6 +150,14 @@
       <option name="presentableId" value="Default" />
       <updated>1703590281425</updated>
     </task>
+    <task id="LOCAL-00001" summary="Add folder choikibeom">
+      <created>1704330620309</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1704330620309</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -124,7 +165,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="KIPUMP" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -132,6 +185,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Add folder choikibeom" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add folder choikibeom" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JavaDaily$compile_and_run.ic" NAME="compile_and_run Coverage Results" MODIFIED="1704273139288" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
