@@ -12,10 +12,10 @@ import java.util.List;
 
 @Controller
 public class MemberController {
-    private MemberService memberService;
+    private final MemberService memberService;
 
     @Autowired
-    public void setMemberService(MemberService memberService) {
+    public MemberController(MemberService memberService) {
         this.memberService = memberService;
     }
 
@@ -26,22 +26,20 @@ public class MemberController {
 
     @PostMapping("/members/new")
     public String create(MemberForm form) {
+        //MemberForm의 name에 html에서 받아온 name이 들어감
         Member member = new Member();
         member.setName(form.getName());
 
         memberService.join(member);
-
+        //메인으로 리다이렉트하기
         return "redirect:/";
+
     }
 
     @GetMapping("/members")
     public String list(Model model) {
-        List<Member> members = memberService.findMember();
+        List<Member> members = memberService.findMembers();
         model.addAttribute("members", members);
-        return "members/membersList";
+        return "members/memberList";
     }
-    //    @Autowired
-//    public MemberController(MemberService memberService) {
-//        this.memberService = memberService;
-//    }
 }
