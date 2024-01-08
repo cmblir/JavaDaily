@@ -4,35 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3834509f-c190-4df5-bf1c-5a9148f17c8e" name="Changes" comment="add Java-start array">
-      <change afterPath="$PROJECT_DIR$/최기범/Java-start/src/Operator/Assign1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/최기범/Java-start/src/Operator/Comp1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/최기범/Java-start/src/Operator/Comp2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/최기범/Java-start/src/Operator/Logical1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/최기범/Java-start/src/Operator/Logical2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/최기범/Java-start/src/Operator/Operator2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/최기범/Java-start/src/Operator/Operator3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/최기범/Java-start/src/Operator/Operator4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/최기범/Java-start/src/Operator/OperatorAdd1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/최기범/Java-start/src/Operator/OperatorAdd2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/최기범/Java-start/src/Operator/ex/OperatorEx1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/최기범/Java-start/src/Operator/ex/OperatorEx2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/최기범/Java-start/src/Operator/ex/OperatorEx3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/최기범/Java-start/src/cond/CondOp1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/최기범/Java-start/src/cond/CondOp2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/최기범/Java-start/src/cond/If1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/최기범/Java-start/src/cond/If2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/최기범/Java-start/src/cond/If3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/최기범/Java-start/src/cond/If4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/최기범/Java-start/src/cond/If5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/최기범/Java-start/src/cond/Switch1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/최기범/Java-start/src/cond/Switch2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/최기범/Java-start/src/cond/Switch3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/최기범/Java-start/src/cond/ex/DistanceEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/최기범/Java-start/src/cond/ex/ExchangeRateEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/최기범/Java-start/src/cond/ex/ScoreEx.java" afterDir="false" />
+    <list default="true" id="3834509f-c190-4df5-bf1c-5a9148f17c8e" name="Changes" comment="add Java-start files">
+      <change afterPath="$PROJECT_DIR$/최기범/Java-start/src/cond/ex/CondOpEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/최기범/Java-start/src/cond/ex/EvenOddEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/최기범/Java-start/src/cond/ex/GradeSwitchEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/최기범/Java-start/src/cond/ex/MovieRateEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/최기범/Java-start/src/loop/Break1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/최기범/Java-start/src/loop/Continue1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/최기범/Java-start/src/loop/DoWhile1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/최기범/Java-start/src/loop/DoWhile2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/최기범/Java-start/src/loop/For1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/최기범/Java-start/src/loop/For2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/최기범/Java-start/src/loop/Nested1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/최기범/Java-start/src/loop/While1_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/최기범/Java-start/src/loop/While1_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/최기범/Java-start/src/loop/While2_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/최기범/Java-start/src/loop/While2_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/최기범/Java-start/src/loop/While2_3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/최기범/Java-start/src/loop/ex/ForEx2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/최기범/Java-start/src/loop/ex/WhileEx1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/최기범/Java-start/src/loop/ex/WhileEx2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/최기범/Java-start/src/test/Operator1.java" beforeDir="false" afterPath="$PROJECT_DIR$/최기범/Java-start/src/Operator/Operator1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +71,7 @@
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/JavaDaily/최기범/Java-start/src&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/JavaDaily&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
@@ -123,17 +115,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="compile_and_run" type="Application" factoryName="Application">
-      <option name="ALTERNATIVE_JRE_PATH" value="openjdk-21" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="array.Array1" />
-      <module name="Java-start" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.compile_and_run" />
       <item itemvalue="Application.Operator4" />
       <item itemvalue="Application.Main" />
     </list>
@@ -182,7 +164,14 @@
       <option name="project" value="LOCAL" />
       <updated>1704375644182</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add Java-start files">
+      <created>1704465155295</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1704465155295</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -212,7 +201,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Add folder choikibeom" />
     <MESSAGE value="add Java-start array" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Java-start array" />
+    <MESSAGE value="add Java-start files" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Java-start files" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JavaDaily$compile_and_run.ic" NAME="compile_and_run Coverage Results" MODIFIED="1704273139288" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
