@@ -1,0 +1,2 @@
+jdbc:h2:/Users/kjeng/Desktop/Study/JAVA_SPRING/JavaDaily/정성호/Spring_start/test
+jdbc:h2:tcp://localhost/Users/kjeng/Desktop/Study/JAVA_SPRING/JavaDaily/정성호/Spring_start/test
