@@ -9,9 +9,8 @@ import spring.core.member.repository.MemberRepository;
 @Component
 public class MemberServiceImpl implements MemberService{
 
-    private final MemberRepository memberRepository;
+    private MemberRepository memberRepository;
 
-    @Autowired
     public MemberServiceImpl(MemberRepository memberRepository) {
         this.memberRepository = memberRepository;
     }

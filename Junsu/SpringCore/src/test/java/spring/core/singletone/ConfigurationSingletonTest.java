@@ -14,7 +14,7 @@ public class ConfigurationSingletonTest {
 
     @Test
     void configurationTest(){
-        ApplicationContext ac = new AnnotationConfigApplicationContext(AutoAppConfig.class);
+        ApplicationContext ac = new AnnotationConfigApplicationContext(AppConfig.class);
 
         MemberServiceImpl memberService = ac.getBean("memberService", MemberServiceImpl.class);
         OrderServiceImpl orderService = ac.getBean("orderService", OrderServiceImpl.class);

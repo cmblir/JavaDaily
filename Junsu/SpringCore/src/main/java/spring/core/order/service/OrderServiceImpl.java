@@ -1,5 +1,7 @@
 package spring.core.order.service;
 
+import lombok.RequiredArgsConstructor;
+import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import spring.core.discount.service.DiscountPolicy;
@@ -9,16 +11,13 @@ import spring.core.order.entity.Order;
 
 
 @Component
+@RequiredArgsConstructor
 public class OrderServiceImpl implements OrderService{
 
-    private final MemberRepository memberRepository;
-    private final DiscountPolicy discountPolicy;
 
-    @Autowired
-    public OrderServiceImpl(MemberRepository memberRepository, DiscountPolicy discountPolicy) {
-        this.memberRepository = memberRepository;
-        this.discountPolicy = discountPolicy;
-    }
+
+    private final  MemberRepository memberRepository;
+    private final DiscountPolicy discountPolicy;
 
     @Override
     public Order createOrder(Long memberId, String itemName, int itemPrice) {
@@ -27,10 +26,11 @@ public class OrderServiceImpl implements OrderService{
 
         return new Order(memberId, itemName, itemPrice, discountPrice);
     }
-
-
+    
     //테스트 용도
     public MemberRepository getMemberRepository() {
         return memberRepository;
     }
+
+
 }
