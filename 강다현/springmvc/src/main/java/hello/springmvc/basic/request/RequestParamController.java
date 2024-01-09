@@ -26,10 +26,28 @@ public class RequestParamController {
     @ResponseBody //String을 반환하지만, 뷰를 찾지 않도록 하고 싶을떼,, RestController와 같게 동작한다.
     @RequestMapping("/request-param-v2")
     public String requestParamV2(
-            @RequestParam("username") String memberName,
+            @RequestParam("username") String memberName, //request.getParameter와 같은 기능을 한다.
             @RequestParam("age") int memberAge
     ) {
         log.info("username = {}, age = {}", memberName, memberAge);
+        return "ok";
+    }
+
+    @ResponseBody
+    @RequestMapping("/request-param-v3")
+    public String requestParamV3(
+            @RequestParam String username,
+            @RequestParam int age
+    ) {
+        log.info("username = {}, age = {}", username, age);
+        return "ok";
+
+    }
+
+    @ResponseBody
+    @RequestMapping("/request-param-v4")
+    public String requestParamV4(String username, int age){
+        log.info("username= {}, age = {}", username, age);
         return "ok";
     }
 }
