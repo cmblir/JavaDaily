@@ -24,17 +24,19 @@ public class ArrayEx6 {
             arr[i] = temp;
         }
          */
-        int minIndex, maxIndex;
-        minIndex = maxIndex = arr[0];
-        for (int i = 0; i < arr.length; i++) {
-            if (arr[i] < minIndex) {
-                minIndex = arr[i];
-            } else if (arr[i] > maxIndex) {
-                maxIndex = arr[i];
+        // 버블 정렬
+        for (int i = length - 1; i >= 0; i--) {
+            for (int j = 0; j < i; j++) {
+                if(arr[j] <arr[j+1]){
+                    int tmp = arr[j];
+                    arr[j] = arr[j + 1];
+                    arr[j + 1] = tmp;
+                }
             }
         }
 
-        System.out.println("가장 작은 정수 : " + minIndex);
-        System.out.println("가장 큰 정수 : " + maxIndex);
+
+        System.out.println("가장 작은 정수 : " + arr[length-1]);
+        System.out.println("가장 큰 정수 : " + arr[0]);
     }
 }
