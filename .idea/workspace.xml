@@ -4,26 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3834509f-c190-4df5-bf1c-5a9148f17c8e" name="Changes" comment="add Java-start files">
-      <change afterPath="$PROJECT_DIR$/최기범/Java-start/src/array/ArrayDi4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/최기범/Java-start/src/method/Method1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/최기범/Java-start/src/method/MethodRef1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/최기범/Java-start/src/scanner/ex/ScannerWhileEx1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/최기범/Java-start/src/scanner/ex/ScannerWhileEx2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/최기범/Java-start/src/scanner/ex/ScannerWhileEx3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/최기범/Java-start/src/scanner/ex/ScannerWhileEx4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/최기범/Java-start/src/array/Array1Ref1.java" beforeDir="false" afterPath="$PROJECT_DIR$/최기범/Java-start/src/array/Array1Ref1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/최기범/Java-start/src/array/Array1Ref2.java" beforeDir="false" afterPath="$PROJECT_DIR$/최기범/Java-start/src/array/Array1Ref2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/최기범/Java-start/src/array/Array1Ref3.java" beforeDir="false" afterPath="$PROJECT_DIR$/최기범/Java-start/src/array/Array1Ref3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/최기범/Java-start/src/array/Array1Ref4.java" beforeDir="false" afterPath="$PROJECT_DIR$/최기범/Java-start/src/array/Array1Ref4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/최기범/Java-start/src/array/ArrayDi1.java" beforeDir="false" afterPath="$PROJECT_DIR$/최기범/Java-start/src/array/ArrayDi1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/최기범/Java-start/src/array/EnhancedFor1.java" beforeDir="false" afterPath="$PROJECT_DIR$/최기범/Java-start/src/array/EnhancedFor1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/최기범/Java-start/src/array/ex/ArrayEx1.java" beforeDir="false" afterPath="$PROJECT_DIR$/최기범/Java-start/src/array/ex/ArrayEx1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/최기범/Java-start/src/array/ex/ArrayEx6.java" beforeDir="false" afterPath="$PROJECT_DIR$/최기범/Java-start/src/array/ex/ArrayEx6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/최기범/Java-start/src/array/ex/ArrayEx8.java" beforeDir="false" afterPath="$PROJECT_DIR$/최기범/Java-start/src/array/ex/ArrayEx8.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/최기범/Java-start/src/array/ex/ArrayEx9.java" beforeDir="false" afterPath="$PROJECT_DIR$/최기범/Java-start/src/array/ex/ArrayEx9.java" afterDir="false" />
-    </list>
+    <list default="true" id="3834509f-c190-4df5-bf1c-5a9148f17c8e" name="Changes" comment="add Java-start files(finish)" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -191,7 +172,14 @@
       <option name="project" value="LOCAL" />
       <updated>1704843534591</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add Java-start files(finish)">
+      <created>1704907878873</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1704907878873</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -222,7 +210,8 @@
     <MESSAGE value="Add folder choikibeom" />
     <MESSAGE value="add Java-start array" />
     <MESSAGE value="add Java-start files" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Java-start files" />
+    <MESSAGE value="add Java-start files(finish)" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Java-start files(finish)" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JavaDaily$compile_and_run.ic" NAME="compile_and_run Coverage Results" MODIFIED="1704273139288" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
