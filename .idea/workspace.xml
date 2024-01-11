@@ -4,22 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3834509f-c190-4df5-bf1c-5a9148f17c8e" name="Changes" comment="add Java-start files(finish)">
-      <change afterPath="$PROJECT_DIR$/최기범/Java-start/src/method/Method2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/최기범/Java-start/src/method/MethodCasting1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/최기범/Java-start/src/method/MethodReturn1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/최기범/Java-start/src/method/MethodReturn2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/최기범/Java-start/src/method/MethodValue1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/최기범/Java-start/src/method/MethodValue2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/최기범/Java-start/src/method/Overloading1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/최기범/Java-start/src/method/Overloading2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/최기범/Java-start/src/method/Overloading3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/최기범/Java-start/src/method/ex/MethodEx4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/최기범/Java-start/src/method/ex/MethodExRef1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/최기범/Java-start/src/method/ex/MethodExRef2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/최기범/Java-start/src/method/ex/MethodExRef3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="3834509f-c190-4df5-bf1c-5a9148f17c8e" name="Changes" comment="add Java-start files(finish)" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -215,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1704907968050</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="add Java-start files(finish)">
+      <created>1704944395163</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1704944395163</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
