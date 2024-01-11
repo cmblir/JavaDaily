@@ -1,0 +1,12 @@
+alt enter  	static변수 선언
+alt insert  	게터 세터
+shift f6   	같은 변수 한번에 수정
+crtl d		단락 붙여넣기
+crtl shift v 	클립보드
+crtl alt v	리턴 값 보여줌
+crtl shift alt t 	리팩토링 (메소드로 기능을 뽑을 때)
+crtl shift t	자바클래스에서 바로 테스트 클래스 만들기
+crlt shift enter	자동완성 (다음줄, ;)\
+crtl shift f10	실행
+shift f10 	이전에 실행했던 것 다시 실행
+crtl e		최근 탭 목록
