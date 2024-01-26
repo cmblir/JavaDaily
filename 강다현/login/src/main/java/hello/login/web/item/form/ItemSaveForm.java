@@ -1,4 +1,4 @@
-package hello.itemservice.web.validation.form;
+package hello.login.web.item.form;
 
 import lombok.Data;
 import org.hibernate.validator.constraints.Range;
@@ -14,10 +14,11 @@ public class ItemSaveForm {
     private String itemName;
 
     @NotNull
-    @Range(min=1000, max=1000000)
+    @Range(min = 1000, max = 1000000)
     private Integer price;
 
     @NotNull
-    @Max(9999)
+    @Max(value = 9999)
     private Integer quantity;
+
 }
