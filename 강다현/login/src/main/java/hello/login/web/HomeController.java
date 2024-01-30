@@ -2,6 +2,7 @@ package hello.login.web;
 
 import hello.login.domain.member.Member;
 import hello.login.domain.member.MemberRepository;
+import hello.login.web.argumentresolver.Login;
 import hello.login.web.session.SessionConst;
 import hello.login.web.session.SessionManager;
 import lombok.RequiredArgsConstructor;
@@ -76,8 +77,19 @@ public class HomeController {
 
     //스프링이 제동해주는 @SessionAttribute 기능 사용 -> 이거 사용시에 세션을 만들지 않아도 된다. GetSession 하지 않아도 된다.
     // 받아서 세션에 회원 데이터가 있는지만 확인해주면 된다.
-    @GetMapping("/")
+//    @GetMapping("/")
     public String homeLoginV3Spring(@SessionAttribute(name="SessionConst.LOGIN_MEMBER",required = false)Member loginMember, Model model){
+        //세션에 회원 데이터 없다면 home
+        if(loginMember==null){
+            return "home";
+        }
+        //세션이 유지되면 로그인으로 이동
+        model.addAttribute("member", loginMember);
+        return "loginHome";
+
+    }
+    @GetMapping("/")
+    public String homeLoginV3ArgumentResolver(@Login Member loginMember, Model model){
         //세션에 회원 데이터 없다면 home
         if(loginMember==null){
             return "home";

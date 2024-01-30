@@ -10,15 +10,15 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
 
-//인증 체크 필터
+//인증 체크 필터 - init()과 destroy() 함수 보면 default 키워드가 들어가 있음 ( 구현하지 않으도 ok)
+
 @Slf4j
 public class LoginCheckFilter implements Filter {
-    private static final String[] whitelist = {"/", "/members/add", "/login", "/logout","/css/*"};
+    private static final String[] whitelist = {"/", "/members/add", "/login", "/logout","/css/*"}; //로그인 하지 않아도 접근할 수 있는 경로들
     @Override
     public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain) throws IOException, ServletException {
         HttpServletRequest httpRequest = (HttpServletRequest) request;
         String requestURI = httpRequest.getRequestURI();
-
         HttpServletResponse httpResponse = (HttpServletResponse) response;
 
         try {
@@ -29,12 +29,13 @@ public class LoginCheckFilter implements Filter {
                 if(session == null || session.getAttribute(SessionConst.LOGIN_MEMBER) == null){
                     log.info("미인증 사용자 요청 {}", requestURI);
                     //로그인으로 redirect
-                    httpResponse.sendRedirect("login?redirectURL="+requestURI);
+                    httpResponse.sendRedirect("/login?redirectURL="+requestURI);
                     return; //여기 중요 , 미인증 사용자는 다음으로 진행하지 않고 끝!
                 }
             }
+            chain.doFilter(request, response);
         } catch (Exception e) {
-            throw e;
+            throw e; //예외 로깅 가능 하지만, 톰캣까지 예외를 보내주어야 함.
         }finally {
             log.info("인증 체크 필터 종료 {}", requestURI);
         }
@@ -44,7 +45,7 @@ public class LoginCheckFilter implements Filter {
      * 화이트 리스트의 경우 인증 체크 X
      */
     private boolean isLoginCheckPath(String requestURI){
-        return !PatternMatchUtils.simpleMatch(whitelist, requestURI);
+        return !PatternMatchUtils.simpleMatch(whitelist, requestURI); //PatternMatchUtils -> 스프링이 제공
     }
 
 
