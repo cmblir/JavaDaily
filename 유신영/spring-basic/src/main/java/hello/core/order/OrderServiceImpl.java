@@ -10,6 +10,9 @@ public class OrderServiceImpl implements OrderService{
     private final MemberRepository memberRepository;
     private final DiscountPolicy discountPolicy;
 
+    public MemberRepository getMemberRepository() {
+        return memberRepository;
+    }
     public OrderServiceImpl(MemberRepository memberRepository, DiscountPolicy discountPolicy) {
         // DIP를 잘 지키게 된다. 이유는 인터페이스에 의존하게 된다.
 
