@@ -28,4 +28,11 @@ public class OrderServiceTest {
         Order order = orderService.createOrder(memberId, "itemA", 10000);
         Assertions.assertThat(order.getDiscountPrice()).isEqualTo(1000);
     }
+
+//    @Test
+//    void fieldInjectrionTest() {
+//        OrderServiceImpl orderService = new OrderServiceImpl();
+//        // 생성자에 바로 autoWired를 하면 setter가 없는 상태에서는 변경이 어렵다.
+//        orderService.createOrder(1L, "itemA", 10000);
+//    }
 }
