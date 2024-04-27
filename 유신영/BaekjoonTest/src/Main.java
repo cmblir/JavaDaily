@@ -1,21 +1,30 @@
-import java.io.IOException;
-import java.io.BufferedWriter;
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
-import java.io.OutputStreamWriter;
-
 public class Main {
-    public static void main (String[] args) throws IOException {
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+    static class Parent {
+        int a;
+        int b;
+        void config(int a, int b) {
+            this.a = a;
+            this.b = b;
+        }
+        int getCount() {
+            return (a + b);
+        }
+    }
 
-        long N = Long.parseLong(br.readLine());
-        br.close();
-
-        bw.write(String.valueOf(N*N*N));
-        bw.write("\n");
-        bw.write(String.valueOf(3));
-        bw.flush();
-        bw.close();
+    static class Child extends Parent {
+        int a = 3;
+        int b = 3;
+        Child(int a) {
+            super.config(a, a + 1);
+        }
+        int getCount() {
+            return (a * b);
+        }
+    }
+    public static void main(String[] args) {
+        Parent parent = new Child(10);
+        Child child = new Child(10);
+        System.out.println(parent.getCount());
+        System.out.println(child.getCount());
     }
 }
