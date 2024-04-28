@@ -1,30 +1,27 @@
 public class Main {
-    static class Parent {
-        int a;
-        int b;
-        void config(int a, int b) {
-            this.a = a;
-            this.b = b;
-        }
-        int getCount() {
-            return (a + b);
-        }
-    }
 
-    static class Child extends Parent {
-        int a = 3;
-        int b = 3;
-        Child(int a) {
-            super.config(a, a + 1);
+    public String solution(String s, int n) {
+        String answer = "";
+        for(int i=0; i<s.length(); i++) {
+            char ch = s.charAt(i);
+            if(ch==' ') { //공백
+                answer += ch;
+                continue;
+            }
+            if(ch>='a' && ch<='z') { //소문자
+                if(ch+n > 'z') {
+                    answer += (char)(ch-26+n);
+                }else {
+                    answer += (char)(ch+n);
+                }
+            }else if(ch>='A' && ch<='Z') { //대문자
+                if(ch+n > 'Z') {
+                    answer += (char)(ch-26+n);
+                }else {
+                    answer += (char)(ch+n);
+                }
+            }
         }
-        int getCount() {
-            return (a * b);
-        }
-    }
-    public static void main(String[] args) {
-        Parent parent = new Child(10);
-        Child child = new Child(10);
-        System.out.println(parent.getCount());
-        System.out.println(child.getCount());
+        return answer;
     }
 }
