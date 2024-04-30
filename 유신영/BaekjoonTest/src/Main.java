@@ -1,29 +1,38 @@
-import java.util.LinkedList;import java.util.List;
-public class Main {
-    public static void main(String[] args) {
-        System.out.println(solution(3, new String[] {"Jeju", "Pangyo", "Seoul", "NewYork", "LA", "Jeju", "Pangyo", "Seoul", "NewYork", "LA"}));
-        System.out.println(solution(3, new String[] {"Jeju", "Pangyo", "Seoul", "Jeju", "Pangyo", "Seoul", "Jeju", "Pangyo", "Seoul"}));
-    }
-    public static int solution(int cacheSize, String[] cities) {
-        int answer = 0;         // 캐시크기가 0일 경우
-        if (cacheSize == 0) {
-            return cities.length * 5;
+import java.util.ArrayList;
+
+private static void Main(String[] people ) {
+    int r = 3;
+    boolean[] isChecked = new boolean[people.length];
+    String[] result = new String[r];
+    ArrayList<String[]> totalList = new ArrayList<String[]>();
+
+    permutation(people, isChecked, result, r, 0, totalList);
+
+    for (String[] strings : totalList) {
+        String temp = "";
+        for( String text : strings ) {
+            temp += " " + text;
         }
-        List<String> caches = new LinkedList<>();
-        for (int i = 0; i < cities.length; i++) {
-            String city = cities[i].toLowerCase(); // 대소문자 구분이 없다.            // cache miss
-            if (!caches.contains(city)) {
-                answer += 5;
-                if (caches.size() >= cacheSize) {                    // 가장 앞에 있는것이 오랫동안 사용하지 않은 캐시므로 0번째를 제거
-                    caches.remove(0);                }
-                caches.add(city);
-                continue;            }             // cache hit
-            if (caches.contains(city)) {
-                caches.remove(city);
-                caches.add(city);
-                answer += 1;
+        System.out.println(temp);
+    }
+    System.out.println("총 경우의 수 : " + totalList.size());
+}
+
+private static void permutation( String[] people, boolean[] isChecked, String[] result, int endPoint, int dept, ArrayList<String[]> totalList ) {
+    if( endPoint == dept ) {
+        totalList.add(result.clone());
+    } else {
+        for ( int i = 0; i < people.length; i++ ) {
+            if( !isChecked[i] ) {
+                isChecked[i] = true; // 사용된 배열 위치
+                result[dept] = people[i]; // 저장
+                permutation(people, isChecked, result, endPoint, dept + 1, totalList);
+                isChecked[i] = false; // 사용된 것 다시 제자리
+                result[dept] = ""; // 저장된 것 제자리
             }
         }
-        return answer;
     }
+}
+
+public void main() {
 }
