@@ -10,6 +10,7 @@ import org.springframework.stereotype.Component;
 public class TimeTraceAop {
 
     @Around("execution(* hello.hellospring..*(..))")
+    // execution(* hello.hellospring..*(..))을 메소드 실행 전, 후로 동작한다.
     public Object execute(ProceedingJoinPoint joinPoint) throws Throwable {
         long start = System.currentTimeMillis();
         System.out.println("START: " + joinPoint.toString());

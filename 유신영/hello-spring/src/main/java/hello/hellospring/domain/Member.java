@@ -10,6 +10,8 @@ import jakarta.persistence.Id;
 public class Member {
 
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
+    // @Id 데이터베이스의 테이블중 유일한 값을 가짐
+    // @GeneratedValue PK 컬럼의 데이터 형식은 정해져 있지는 않음, 그러나 유일한 값을 가지고 있어야 데이터 경합 데드락 방지가 가능함
     private Long id;
 
 //    @Column(name = "username")

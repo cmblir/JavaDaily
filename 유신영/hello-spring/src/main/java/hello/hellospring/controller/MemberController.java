@@ -15,6 +15,7 @@ public class MemberController {
     private final MemberService memberService;
 
     @Autowired
+    // 자동 종속성 주입
     public MemberController(MemberService memberService) {
         this.memberService = memberService;
     }
@@ -23,8 +24,9 @@ public class MemberController {
     public String createForm() {
         return "members/createMemberForm";
     }
-
     @PostMapping("/members/new")
+    // @RequestMapping(method = RequestMethod.POST, path = "/members/new")
+    // URL에 데이터가 노출하지 않고 요청
     public String create(MemberForm form) {
         //MemberForm의 name에 html에서 받아온 name이 들어감
         Member member = new Member();

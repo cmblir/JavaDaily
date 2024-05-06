@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class HelloController {
 
     @GetMapping("hello")
+    // /hello 접속할 때 사용하는 주소
     public String hello(Model model) {
         model.addAttribute("data", "hello!!");
         return "hello";
@@ -23,6 +24,7 @@ public class HelloController {
 
     @GetMapping("hello-string")
     @ResponseBody
+    // ViewResolver를 사용하지 않아도 됨
     public String helloString(@RequestParam("name") String name) {
         return "hello " + name; // hello spring
     }
