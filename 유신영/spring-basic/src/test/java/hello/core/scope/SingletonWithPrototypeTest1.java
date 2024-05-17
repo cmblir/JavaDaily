@@ -42,7 +42,7 @@ public class SingletonWithPrototypeTest1 {
     @Scope("singleton")
     static class ClientBean {
 
-        @Autowired
+        // @Autowired
         private ApplicationContext ac;
 //        @Autowired
 //        public ClientBean(PrototypeBean prototypeBean) {
