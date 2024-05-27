@@ -23,6 +23,7 @@ public class RequestBodyStringServlet extends HttpServlet {
         System.out.println("messageBody = " + messageBody);
 
         response.getWriter().write("ok");
+        System.out.println();
 
 
     }
