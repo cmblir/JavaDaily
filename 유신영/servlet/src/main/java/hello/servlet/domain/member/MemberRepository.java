@@ -15,7 +15,11 @@ public class MemberRepository {
     public static MemberRepository getInstance() {
         return instance;
     }
+    /*
+    싱글톤 패턴 사용 -> 이유는 메모리 측면으로 최초 한번의 new 연산자를 통해서 고정 메모리 사용을 막아
+    메모리 낭비를 막을 수 있다.
 
+     */
     private MemberRepository() {
     }
 
